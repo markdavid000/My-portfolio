@@ -1,10 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--body_background);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--object_background);
+  border-radius: 20px;
+}
+
 .App {
-  text-align: center;
+  background-color: var(--body_background);
+  color: var(--body_color);
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.background {
+  background-color: var(--object_background);
+}
+
+.social_media a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  background-color: var(--main-color);
+  color: var(--body_color);
+  border-radius: 50%;
+  font-size: 1rem;
+  margin: 0.5rem 1.5rem 1rem 0;
+  text-decoration: none;
+  /* transition: all 0.3s ease; */
+}
+
+.social_media a:hover {
+  transform: translateY(-0.5rem);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  /* background: var(--main-color); */
+  border: 0.1rem solid var(--main-color);
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--body_color);
+  font-weight: 500;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,18 +78,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  padding-top: 6rem;
 }
 
 .App-link {
-  color: #61dafb;
+  color: var(--body_color);
 }
 
 @keyframes App-logo-spin {
