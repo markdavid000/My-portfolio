@@ -10,8 +10,11 @@
   display: block;
   background: #3a4049;
   border-radius: 200px;
-  box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4),
-    inset 0px -5px 15px rgba(255, 255, 255, 0.4);
+  /* box-shadow:  */
+  box-shadow: 0px 10px 21px -7px rgba(0, 0, 0, 0.322),
+    inset 0px -5px 15px rgba(255, 255, 255, 0.4),
+    inset 0px 5px 15px rgba(0, 0, 0, 0.4);
+
   cursor: pointer;
   transition: 0.3s;
 }
@@ -32,7 +35,7 @@
   visibility: hidden;
 }
 .dark_mode_input:checked + .dark_mode_label {
-  background: #ebebeb;
+  background: #ebe9e9;
 }
 .dark_mode_input:checked + .dark_mode_label:after {
   left: 62px;

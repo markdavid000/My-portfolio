@@ -22,11 +22,9 @@ const Body = () => {
         />
       </div>
       <div style={{ margin: '0 1rem' }}>
-        <h3 className='text-center'>McDavid Ojukwu</h3>
-        <p className='text-center' style={{ fontSize: '0.8rem' }}>
-          Frontend Developer
-        </p>
-        <div class='social_media text-center'>
+        <h3>McDavid Ojukwu</h3>
+        <p style={{ fontSize: '0.8rem' }}>Frontend Developer</p>
+        <div class='social_media'>
           <a
             href='https://github.com/markdavid000'
             target='_blank'
@@ -57,7 +55,7 @@ const Body = () => {
             href='mailto:davidojukwu59@gmail.com'
             target='_blank'
             rel='noreferrer'
-            class='btn'
+            class='btn btn1'
           >
             Let's Talk
           </a>
@@ -65,13 +63,13 @@ const Body = () => {
             href='https://drive.google.com/file/d/1isb5B0RJgHlCnXs_xTyKNrBsJThhzV1L/view?usp=sharing'
             target='_blank'
             rel='noreferrer'
-            class='btn'
+            class='btn btn1'
           >
             Download CV
           </a>
         </div>
-        <h3 className='text-center'>About</h3>
-        <p className='text-center' style={{ fontSize: '0.8rem' }}>
+        <h3>About</h3>
+        <p style={{ fontSize: '0.8rem' }}>
           I'm a Frontend Web Developer, using cutting edge technologies to
           develop clean and elegant website. I'm currently working on the web2
           field. I love doing research and solving problems especially with my
