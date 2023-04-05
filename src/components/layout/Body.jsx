@@ -22,7 +22,7 @@ const Body = () => {
         />
       </div>
       <div style={{ margin: '0 1rem' }}>
-        <h3>McDavid Ojukwu</h3>
+        <h3>Mark-David Ojukwu</h3>
         <p style={{ fontSize: '0.8rem' }}>Frontend Developer</p>
         <div class='social_media'>
           <a
